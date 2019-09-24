@@ -90,3 +90,22 @@ h2 {
     border-bottom: 2px solid #cccccc;
     padding: 1em;
 }
+
+.form-input {
+    display: block;
+    padding: 8px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#msg {
+    height: 150px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+}
