@@ -35,19 +35,22 @@ section {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
     margin-top: 50px;
     margin-bottom: 120px;
 }
 
 .avatar-image {
     float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 25px;
 }
 
 p {
     line-height: 2em;
+}
+
+.main-content {
+    padding-top: 25px;
 }
 
 .main-content::after {
@@ -81,4 +84,9 @@ h1, h2, h3 {
 
 h2, h3 {
     color: #4aaaa5;
+}
+
+h2 {
+    border-bottom: 2px solid #cccccc;
+    padding: 1em;
 }
