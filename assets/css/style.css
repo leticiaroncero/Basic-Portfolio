@@ -30,6 +30,11 @@ a {
     text-decoration: none;
 }
 
+nav a {
+    border-right: 1px solid #777777; 
+    padding: 0 1em;
+}
+
 section {
     width: 960px;
     background-color: #ffffff;
@@ -45,7 +50,6 @@ section {
     margin-right: 25px;
     width: 200px;
     height: 200px;
-
 }
 
 p {
@@ -70,7 +74,7 @@ footer {
     background-color: #666666;
     position: fixed;
     bottom: 0;
-    width:100%;
+    width: 100%;
 }
 
 h1 {
@@ -87,7 +91,7 @@ h1, h2, h3 {
 
 h2 {
     border-bottom: 2px solid #cccccc;
-    padding: 1em;
+    padding: 1em 0;
     color: #4aaaa5;
 }
 
@@ -136,6 +140,7 @@ img {
 
 #msg {
     height: 150px;
+    resize: vertical;
 }
 
 .btn {
