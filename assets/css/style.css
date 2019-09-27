@@ -23,7 +23,6 @@ header {
 
 nav {
     float: right;
-    margin: auto 0;
 }
 
 a {
@@ -34,6 +33,13 @@ a {
 nav a {
     border-right: 1px solid #777777; 
     padding: 0 1em;
+    position: relative;
+    top: 35px;
+}
+
+nav a:last-child {
+    border-right: none;
+    padding-right: 0px;
 }
 
 section {
@@ -79,7 +85,7 @@ footer {
 }
 
 h1 {
-    padding: 1em;
+    padding: 28px;
     background-color: #4aaaa5;
     color: #ffffff;
     margin: 0;
@@ -154,5 +160,5 @@ img {
     background-color: #4aaaa5;
     color: #ffffff;
     border: none;
-    /* font-size: 1em; */
+    font-size: 1em;
 }
