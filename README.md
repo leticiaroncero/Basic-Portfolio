@@ -1,5 +1,7 @@
 # Basic-Portfolio
 
+[Link to deployed site.](https://leticiaroncero.github.io/Basic-Portfolio/)
+
 ## Description
 
 The goal of this project was to build a professional portfolio site using HTML and CSS, while following some basic design specs, and applying properties like floats, display, overflow, etc. to build the layout. The site has three pages: a 'Bio' with information about us, a 'Portfolio' with thumbnails/images that link to projects we've completed in the past, and a 'Contact' page with a form for potential visitors to message us.  
